@@ -65,3 +65,7 @@ CMakeSettings.json
 # Python build stuff
 dist/
 *.egg-info*
+
+# Trimble Technology build ignores
+/trimble-technology/Benchmark/x64
+/trimble-technology/x64

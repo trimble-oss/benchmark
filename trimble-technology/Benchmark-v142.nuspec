@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>Benchmark-v142</id>
+    <version>0.0.0-localbuild</version>
+    <authors>Google Inc.</authors>
+    <owners></owners>
+    <projectUrl>https://github.com/trimble-oss/benchmark</projectUrl>
+    <license type="expression">Apache-2.0</license>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The google benchmark library (x64, v142, Release/DebugCRT).</description>
+    <copyright>Copyright 2008, Google Inc.</copyright>
+    <title>Benchmark-v142</title>
+    <tags>Benchmark  native  v142</tags>
+  </metadata>
+  <files>
+    <file src="Benchmark-v142.targets" target="\build\native\Benchmark-v142.targets" />
+    <file src="..\include\**\*" target="\build\native\include\" />
+
+    <file src="x64\Release\benchmark.lib" target="\build\native\lib\x64\benchmark.lib" />
+    <file src="x64\DebugCRT\benchmark.lib" target="\build\native\lib\x64\DebugCRT\benchmark.lib" />
+
+  </files>
+</package>
