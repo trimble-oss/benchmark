@@ -6,4 +6,4 @@ set /p Build=<ver.txt
 set /a Build=%Build%+1
 echo %Build%>ver.txt
 
-c:\tools\nuget\nuget.exe pack -Version 0.0.%Build% Benchmark-v142.nuspec
+c:\work\nuget.exe pack -Version 1.7.1.%Build% Benchmark-v142.nuspec
